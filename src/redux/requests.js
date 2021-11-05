@@ -5,7 +5,7 @@
 import axios from "axios";
 import { v4 as uuidv4 } from "uuid";
 
-const { API_URL = "http://localhost:8000/iecho" } = process.env;
+const { REACT_APP_API_URL = "http://localhost:8000/iecho" } = process.env;
 
 // Actions
 const SEND_TEXT_REQUEST = "SEND_TEXT_REQUEST";
@@ -37,7 +37,7 @@ export const sendText = (text) => {
     dispatch(sendTextRequest());
 
     axios
-      .get(`${API_URL}?text=${text}`)
+      .get(`${REACT_APP_API_URL}?text=${text}`)
       .then((res) => {
         dispatch(
           sendTextSuccess({

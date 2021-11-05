@@ -1,5 +1,9 @@
 # Reversed App - Client
 
+## Site is live ✨
+
+https://reversed-app-client.netlify.app/
+
 ## How to run it?
 
 - Install dependencies with
