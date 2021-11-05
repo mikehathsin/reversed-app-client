@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form tests Should render correctly 1`] = `
+<div>
+  <form
+    class="d-flex"
+  >
+    <input
+      class="form-control"
+      placeholder="Insert text"
+      value=""
+    />
+    <button
+      class="ms-2 btn btn-primary"
+      type="submit"
+    >
+      Send
+    </button>
+  </form>
+</div>
+`;

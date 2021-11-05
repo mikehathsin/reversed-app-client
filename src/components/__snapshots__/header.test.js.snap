@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header tests Should render correctly 1`] = `
+<div>
+  <h1>
+    Results:
+  </h1>
+</div>
+`;
+
+exports[`Header tests Should show the error message 1`] = `
+<div>
+  <div
+    class="fade alert alert-danger show"
+    role="alert"
+  >
+    Error to fetch: 
+    Network Error
+  </div>
+  <h1>
+    Results:
+  </h1>
+</div>
+`;

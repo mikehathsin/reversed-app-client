@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextList tests Should render correctly with data 1`] = `
+<div>
+  <div
+    class="vstack gap-2"
+  >
+    <div
+      class="p-2 d-flex flex-column bg-light border"
+    >
+      <div
+        class="d-flex justify-content-between"
+      >
+        <span>
+          ana
+        </span>
+        <span
+          class="badge bg-success"
+        >
+          It's palindrome!
+        </span>
+      </div>
+      <div
+        class="align-self-end"
+      >
+        2:23:43 PM
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextList tests Should render correctly without data 1`] = `
+<div>
+  <div
+    class="vstack gap-2"
+  >
+    <h4>
+      No data. Send your first text!
+    </h4>
+  </div>
+</div>
+`;
